@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
@@ -99,7 +98,7 @@ export default function App() {
             return(
             
               <div onClick={(e) => getStops(currentLine)} key={currentLine} className={className}>
-                  <p key={currentLine} className='lineButtonATag' >{currentLine}</p>
+                  <p key={currentLine} className='lineButtonATag'>{currentLine}</p>
               </div>
             
             )
