@@ -111,7 +111,11 @@ export default function App() {
             
             {stopDetails.length > 0 ?
             <div className='stopDetailWrapper'>
-              <h2>{activeLineNr}</h2>
+              <div className="stop-details-header">
+                <h2>Line {activeLineNr}</h2>
+                <p className="stop-details-stopcount">{selectedLine.length} stops</p>
+              </div>
+              
               <div className="stopDetails">
             {stopDetails.map((stop) => {
               

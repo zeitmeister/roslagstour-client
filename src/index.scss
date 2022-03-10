@@ -136,6 +136,20 @@ code {
     margin: 0;
   }
 }
+.stop-details-header{
+  display:flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  h2 {
+    font-weight: bolder;
+    padding: 0 50px;
+  }
+  .stop-details-stopcount {
+    padding: 0 50px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .lineButtonsWrapper{
