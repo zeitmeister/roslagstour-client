@@ -78,7 +78,7 @@ export default function App() {
     
       
       <header className="App-header">
-        <p>Simons Roslags tour</p>
+        <p>Simons Tour of Roslagen</p>
         
       
        
